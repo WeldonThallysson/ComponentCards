@@ -1,0 +1,35 @@
+.Conteiner__Button{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -2px;
+  
+}
+.Botao{
+    background-color: transparent;
+    color: white;
+    display: flex;
+    text-decoration: none;  
+    position: absolute;
+ 
+}
+
+.background__borda{
+    border-bottom: 1px solid rgb(255, 0, 0);
+    margin-top: 15px;
+    position: absolute;
+    width: 110px;
+
+}
+.background__borda:hover{
+
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.425);
+    height: 30px;
+    margin-top: -10px;
+    transition: all 0.8s ease-in-out;
+    transform: scaleY(1.2);
+    width: 125px;
+}
+
