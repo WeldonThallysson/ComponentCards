@@ -1,0 +1,86 @@
+
+body{
+  background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+.Conteiner__Main{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 280px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1700px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1600px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1600px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1600px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+
+
+
+
