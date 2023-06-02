@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.Container__Title{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+}
+.Traco {
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    height: 6px;
+    justify-content: center;  
+    left: 0px;
+    margin-top: 20px;
+    opacity: 1;
+    width: 45px;
+}
+
+.Conteiner__Title{
+    display: flex;
+
+}
+
+.Title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 3rem;
+
+
+}
