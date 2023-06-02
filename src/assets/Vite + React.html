@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="./Vite + React_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite + React</title>
+    <link href="./Vite + React_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="./Vite + React_files/bootstrap.bundle.min.js.transferir" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <style type="text/css" data-vite-dev-id="C:/Users/Weldon Thallysson/projetos/Cards/ComponenteCards/src/App.css">
+body{
+  background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+.Conteiner__Main{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1600px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1600px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1600px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+
+
+@media screen and (max-width: 280px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1700px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}</style><style type="text/css" data-vite-dev-id="C:/Users/Weldon Thallysson/projetos/Cards/ComponenteCards/src/Component/Card/style.css">@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.Container__Cards{
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  margin: 5rem 4rem;
+}
+
+.card{
+   border-radius: 15px;
+   background-color: transparent;
+   display: flex;
+   height: 21rem;
+   margin: 0px 25px;
+   width: 10rem;
+  
+    
+}
+
+.card:hover{
+  transition: all .7s ease-in-out;
+  transform: scaleY(1);
+}
+
+.card-img-top{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 220px;
+  width: 100%;
+  z-index: -1;
+}
+
+.card-img-top:hover{
+   transition: all .5s ease-in-out;
+   transform: scaleY(1.1);
+  
+}
+
+.card-body{
+    height: 50px;
+}
+
+.Card__Descricao{
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 110px;
+  padding: 15px;
+
+
+}
+
+.card__text{
+  margin: 0;
+  padding: 0;
+}
+
+.titulo{
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.descricao{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.preco{
+  color:#28B15C ;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 110px;
+  margin-top: 5px;
+}
+
+.local{
+  display: flex;
+  flex-direction: row;
+  margin-top: -2px;
+  margin-bottom: 10px;
+  font-size: 12px;
+
+}
+
+.icone{
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1024px ) {
+  .Container__Cards{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin: 4rem 4rem;
+ 
+  }
+  .card{
+    border-radius: 15px;
+    background-color: transparent;
+    display: flex;
+    height: 21rem;
+    margin: 10px 25px;
+    width: 10rem;
+   
+     
+ }
+}
+
+@media screen and (max-width: 768px ) {
+  .Container__Cards{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,.9fr);
+    justify-content: center;
+    margin: 4rem 4rem;
+ 
+  }
+  .card{
+    border-radius: 15px;
+    background-color: transparent;
+    display: flex;
+    height: 21rem;
+    margin: 10px 25px;
+    width: 10rem;
+   
+     
+ }
+}
+
+@media screen and (max-width: 425px){
+  .Container__Cards{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1,.2fr);
+    justify-content: center;
+    margin: 2rem 2.1rem;
+ 
+  }
+  .card{
+    border-radius: 15px;
+    background-color: transparent;
+    display: flex;
+    height: 21rem;
+    margin: 5px 25px;
+    width: 10rem;
+   
+     
+ }
+  
+}
+
+@media screen and (max-width: 375px){
+  .Container__Cards{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    margin: 2rem 2rem;
+  
+  }
+  .card{
+    border-radius: 15px;
+    background-color: transparent;
+    display: flex;
+    height: 21rem;
+    margin: 5px 25px;
+    width: 10rem;
+   
+     
+  }
+  
+  }
+
+@media screen and (max-width: 320px){
+.Container__Cards{
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  justify-content: center;
+  margin: 2rem .4rem;
+
+}
+.card{
+  border-radius: 15px;
+  background-color: transparent;
+  display: flex;
+  height: 21rem;
+  margin: 5px 25px;
+  width: 10rem;
+ 
+   
+}
+
+}
+
+@media screen and (max-width: 280px) {
+  .Container__Cards{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    margin: 2rem 0;
+ 
+  }
+}
+</style><style type="text/css" data-vite-dev-id="C:/Users/Weldon Thallysson/projetos/Cards/ComponenteCards/src/Component/Title/style.css">@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.Container__Title{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+}
+
+.Traco {
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    height: 6px;
+    justify-content: center;  
+    left: 0px;
+    margin-top: 20px;
+    opacity: 1;
+    width: 45px;
+}
+
+.Conteiner__Title{
+    display: flex;
+
+}
+
+.Title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 3rem;
+
+
+}</style><style type="text/css" data-vite-dev-id="C:/Users/Weldon Thallysson/projetos/Cards/ComponenteCards/src/Component/Button/style.css">.Conteiner__Button{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -2px;
+  
+}
+.Botao{
+    background-color: transparent;
+    color: white;
+    display: flex;
+    text-decoration: none;  
+    position: absolute;
+ 
+}
+
+.background__borda{
+    border-bottom: 1px solid rgb(255, 0, 0);
+    margin-top: 15px;
+    position: absolute;
+    width: 110px;
+
+}
+.background__borda:hover{
+
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.425);
+    height: 30px;
+    margin-top: -10px;
+    transition: all 0.8s ease-in-out;
+    transform: scaleY(1.2);
+    width: 125px;
+}
+
+</style></head>
+  <body cz-shortcut-listen="true">
+
+    <div id="root"><div class="Container__Main"><section><div class="Container__Title"><div class="Traco"></div><div class="Conteiner__Title"><h1 class="Title">Oportunidade de Terceiros</h1></div></div></section><section class="container__Cards"><div class="Container__Cards"><div class="card c" style="width: 16rem;"><img src="./Vite + React_files/apartamento.jpg" class="card-img-top" alt="Apartamento"><div class="Card__Descricao"><p class="card__text titulo">Noemi Machado Residence</p><p class="card__text descricao">Apartamento 602</p><p class="card__text preco">R$ 450.000,00</p><p class="card__text local"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icone" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Morretes,itapema- SC</p></div></div><div class="card c" style="width: 16rem;"><img src="./Vite + React_files/apartamento.jpg" class="card-img-top" alt="Apartamento"><div class="Card__Descricao"><p class="card__text titulo">Noemi Machado Residence</p><p class="card__text descricao">Apartamento 602</p><p class="card__text preco">R$ 450.000,00</p><p class="card__text local"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icone" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Morretes,itapema- SC</p></div></div><div class="card c" style="width: 16rem;"><img src="./Vite + React_files/apartamento.jpg" class="card-img-top" alt="Apartamento"><div class="Card__Descricao"><p class="card__text titulo">Noemi Machado Residence</p><p class="card__text descricao">Apartamento 602</p><p class="card__text preco">R$ 450.000,00</p><p class="card__text local"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icone" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Morretes,itapema- SC</p></div></div><div class="card c" style="width: 16rem;"><img src="./Vite + React_files/apartamento.jpg" class="card-img-top" alt="Apartamento"><div class="Card__Descricao"><p class="card__text titulo">Noemi Machado Residence</p><p class="card__text descricao">Apartamento 602</p><p class="card__text preco">R$ 450.000,00</p><p class="card__text local"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icone" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Morretes,itapema- SC</p></div></div></div></section><div class="Conteiner__Button"><a class="Botao"><p>Ver Mais <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></p></a><div class="background__borda"></div></div></div></div> 
+    <script type="module" src="./Vite + React_files/main.jsx"></script>
+   
+  
+
+</body></html>

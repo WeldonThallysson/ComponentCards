@@ -13,56 +13,33 @@ body{
   justify-content: center;
   margin-top: 2rem;
 }
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 1440px) {
   body{
     background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
     display: flex;
-    height: 1700px;
+    height: 100vh;
     margin: 0;
     padding: 0;
     width: 100vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1366px) {
   body{
     background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
     display: flex;
-    height: 1600px;
+    height: 100vh;
     margin: 0;
     padding: 0;
     width: 100vw;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1360px) {
   body{
     background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
     display: flex;
-    height: 1600px;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-  }
-}
-
-
-@media screen and (max-width: 425px) {
-  body{
-    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
-    display: flex;
-    height: 1600px;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  body{
-    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
-    display: flex;
-    height: 1000px;
+    height: 100vh;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -80,7 +57,62 @@ body{
   }
 }
 
+@media screen and (max-width: 768px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1600px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
 
 
 
 
+@media screen and (max-width: 375px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1600px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1600px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+
+
+@media screen and (max-width: 280px) {
+  body{
+    background: linear-gradient(rgb(46, 46, 46),rgb(34, 34, 34)) no-repeat;
+    display: flex;
+    height: 1700px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+}
