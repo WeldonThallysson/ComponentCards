@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.Conteiner{
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.Btn{
+   
+        background-color: #C11414;
+        border-radius: 15px;
+        color: white;
+        display: flex;
+        font-size: 12px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        opacity: 0.9;
+        position: absolute;
+        padding: 6px 18px;
+        right: 10px;
+        top:  180px;
+        text-transform: uppercase;
+        text-decoration: none;  
+}
+
+
+
