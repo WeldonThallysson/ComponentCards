@@ -7,7 +7,7 @@ const Title = () => {
             <div className="Traco" />
 
             <div className="Conteiner__Title" >
-                <h1 className="Title">Oportunidade de Terceiros</h1>
+                <h1 className="Title">Oportunidades de Terceiros</h1>
             </div>
         </div>
     )
